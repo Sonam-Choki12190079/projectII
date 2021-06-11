@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="12dp"
+    android:background="@drawable/back"
+    tools:context=".ViewActivity">
+
+    <include
+        android:id="@+id/home_toolbar"
+        layout="@layout/usertoolbar" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_edt"
+                android:gravity="center"
+                android:text="Image  with command line description"
+                android:textSize="23sp"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:id="@+id/image_single_view_Activity"
+                android:layout_width="match_parent"
+                android:layout_height="300dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:id="@+id/textView_single_view_Activity"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="400dp"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                android:textColor="@color/black"
+                android:textSize="25dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:background="@color/white"
+                android:textSize="20dp" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</LinearLayout>

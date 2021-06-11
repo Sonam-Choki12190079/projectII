@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">FUN CRAFT</string>
+    <string name="admin_navigation_drawer_open">Open navigation drawer</string>
+    <string name="admin_navigation_drawer_close">Close navigation drawer</string>
+    <string name="user_navigation_drawer_open">Open navigation drawer</string>
+    <string name="user_navigation_drawer_close">Close navigation drawer</string>
+    <string name="phone_number" />
+    <string name="Number" />
+    <string name="history"><b>Linux began in 1991 as a personal project by Finnish
+        student Linus Torvalds: to create a new free operating system kernel.The resulting
+        Linux kernel has been marked by constant growth throughout its history.Since the
+        initial release of its source code in 1991, it has grown from a small number of C
+        files under a license prohibiting commercial distribution to the 4.15 version in
+        2018 with more than 23.3 million lines of source code, not counting comments,[1]
+        under the GNU General Public License v2.Linux is an operating system in much the
+        same way that windows is an opearting system.The term operating system is used to
+        describe the software that acts as layer between the hardware in a computer and
+        applications that we all run on a daily basis.
+    </b></string>
+    <string name="night_mode">Night mode</string>
+    <string name="day_mode">Day mode</string>
+</resources>

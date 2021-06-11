@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    tools:context=".Registration">
+    <include
+        android:id="@+id/home_toolbar"
+        layout="@layout/usertoolbar" />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sign Up"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                android:textAllCaps="true"/>
+
+            <EditText
+                android:id="@+id/inputUsername"
+                android:layout_width="299dp"
+                android:layout_height="67dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_edt"
+                android:drawableRight="@drawable/ic_baseline_person_24"
+                android:hint="Enter Your Name"
+                android:textStyle="bold"
+                android:inputType="textPersonName"
+                android:padding="10dp"
+                android:paddingLeft="20dp"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"/>
+<!--                android:layout_width="303dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:drawableEnd="@drawable/ic_baseline_person_24"-->
+<!--                android:ems="10"-->
+<!--                android:hint="Username"-->
+<!--                android:background="@drawable/btn_edt"-->
+<!--                android:paddingStart="15dp"-->
+<!--                android:paddingEnd="15dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:inputType="textPersonName"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintHorizontal_bias="0.478"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/textView2"-->
+<!--                app:layout_constraintVertical_bias="0.043" />-->
+
+
+            <EditText
+                android:id="@+id/inputEmail"
+                android:layout_width="299dp"
+                android:layout_height="67dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_edt"
+                android:drawableRight="@drawable/ic_baseline_email_24"
+                android:hint="Email"
+                android:textStyle="bold"
+                android:inputType="textEmailAddress"
+                android:padding="10dp"
+                android:paddingLeft="20dp"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"/>
+<!--                android:layout_width="303dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:background="@drawable/btn_edt"-->
+<!--                android:drawableEnd="@drawable/ic_baseline_email_24"-->
+<!--                android:ems="10"-->
+<!--                android:hint="Email"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:inputType="textEmailAddress"-->
+<!--                android:paddingStart="15dp"-->
+<!--                android:paddingEnd="15dp"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/inputUsername"-->
+<!--                app:layout_constraintVertical_bias="0.025" />-->
+            <EditText
+                android:id="@+id/inputCall"
+                android:layout_width="299dp"
+                android:layout_height="67dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_edt"
+                android:drawableRight="@drawable/ic_baseline_phone_24"
+                android:hint="Contact Number"
+                android:textStyle="bold"
+                android:inputType="number"
+                android:padding="10dp"
+                android:paddingLeft="20dp"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/inputPassword"
+                android:layout_width="299dp"
+                android:layout_height="67dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_edt"
+                android:drawableRight="@drawable/ic_lock"
+                android:hint="Password"
+                android:textStyle="bold"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:paddingLeft="20dp"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"/>
+<!--                android:layout_width="303dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginBottom="3dp"-->
+<!--                android:background="@drawable/btn_edt"-->
+<!--                android:drawableEnd="@drawable/ic_baseline_remove_red_eye_24"-->
+<!--                android:ems="10"-->
+<!--                android:hint="Password"-->
+<!--                android:inputType="textPassword"-->
+<!--                android:paddingStart="15dp"-->
+<!--                android:paddingEnd="15dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintHorizontal_bias="0.481"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/inputEmail"-->
+<!--                app:layout_constraintVertical_bias="0.073" />-->
+
+            <EditText
+                android:id="@+id/inputConfirmPassword"
+                android:layout_width="299dp"
+                android:layout_height="67dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/btn_edt"
+                android:drawableRight="@drawable/ic_lock"
+                android:hint=" Confirm Password"
+                android:textStyle="bold"
+                android:inputType="textPassword"
+                android:padding="10dp"
+                android:paddingLeft="20dp"
+                android:layout_gravity="center"
+                android:paddingTop="10dp"
+                android:paddingRight="10dp"
+                android:paddingBottom="10dp"
+                android:textColor="@color/black"/>
+<!--                android:layout_width="303dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginBottom="8dp"-->
+<!--                android:background="@drawable/btn_edt"-->
+<!--                android:drawableEnd="@drawable/ic_baseline_remove_red_eye_24"-->
+<!--                android:ems="10"-->
+<!--                android:hint="Confirm Password"-->
+<!--                android:inputType="textPassword"-->
+<!--                android:paddingStart="15dp"-->
+<!--                android:paddingEnd="15dp"-->
+<!--                android:layout_gravity="center"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintHorizontal_bias="0.481"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/inputPassword"-->
+<!--                app:layout_constraintVertical_bias="0.077" />-->
+
+<!--            <EditText-->
+<!--                android:id="@+id/inputLicenseno"-->
+<!--                android:layout_width="303dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginBottom="8dp"-->
+<!--                android:background="@drawable/custom_input"-->
+<!--                android:drawableEnd="@drawable/ic_baseline_book_24"-->
+<!--                android:ems="10"-->
+<!--                android:hint="License No."-->
+<!--                android:inputType="text|number"-->
+<!--                android:paddingStart="15dp"-->
+<!--                android:paddingEnd="15dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                android:layout_gravity="center"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintHorizontal_bias="0.481"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/inputCall"-->
+<!--                app:layout_constraintVertical_bias="0.109" />-->
+
+
+<!--                android:layout_width="303dp"-->
+<!--                android:layout_height="50dp"-->
+<!--                android:layout_marginBottom="8dp"-->
+<!--                android:background="@drawable/custom_input"-->
+<!--                android:drawableEnd="@drawable/ic_baseline_phone_24"-->
+<!--                android:ems="10"-->
+<!--                android:hint="Contact No"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:inputType="phone"-->
+<!--                android:paddingStart="15dp"-->
+<!--                android:paddingEnd="15dp"-->
+<!--                android:textColor="@color/black"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintHorizontal_bias="0.481"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/inputConfirmPassword"-->
+<!--                app:layout_constraintVertical_bias="0.105" />-->
+            <CheckBox
+                android:id="@+id/checkbox"
+                android:layout_width="240dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="@color/black"
+                android:text="Show Password"/>
+
+            <Button
+                android:id="@+id/btnRegister"
+                android:layout_width="244dp"
+                android:layout_height="56dp"
+                android:layout_marginBottom="68dp"
+                android:background="@drawable/btn_edt"
+                android:text="Register"
+                android:layout_gravity="center"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/inputLicenseno"
+                app:layout_constraintVertical_bias="0.216" />
+
+<!--            <TextView-->
+<!--                android:id="@+id/Account"-->
+<!--                android:layout_width="167dp"-->
+<!--                android:layout_height="36dp"-->
+<!--                android:layout_marginBottom="40dp"-->
+<!--                android:background="@drawable/custom_input"-->
+<!--                android:gravity="center"-->
+<!--                android:layout_gravity="center"-->
+<!--                android:text="Already Have An Account"-->
+<!--                app:layout_constraintBottom_toBottomOf="parent"-->
+<!--                app:layout_constraintEnd_toEndOf="parent"-->
+<!--                app:layout_constraintStart_toStartOf="parent"-->
+<!--                app:layout_constraintTop_toBottomOf="@+id/btnRegister"-->
+<!--                app:layout_constraintVertical_bias="0.182" />-->
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/textView2"-->
+    <!--                android:layout_width="279dp"-->
+    <!--                android:layout_height="56dp"-->
+    <!--                android:background="@drawable/background"-->
+    <!--                android:fontFamily="cursive"-->
+    <!--                android:gravity="center"-->
+    <!--                android:text="Linux Commands"-->
+    <!--                android:textSize="40dp"-->
+    <!--                android:textStyle="bold"-->
+    <!--                android:layout_gravity="center"-->
+    <!--                app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--                app:layout_constraintEnd_toEndOf="parent"-->
+    <!--                app:layout_constraintStart_toStartOf="parent"-->
+    <!--                app:layout_constraintTop_toTopOf="parent"-->
+    <!--                app:layout_constraintVertical_bias="0.114" />-->
