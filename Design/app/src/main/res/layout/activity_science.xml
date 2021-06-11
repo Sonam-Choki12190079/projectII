@@ -1,0 +1,280 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:layout_height="match_parent"
+    tools:context=".Science">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/light_coral"
+                android:backgroundTint="@color/floral_white"
+                app:cardCornerRadius="30dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/title"
+                    android:layout_marginBottom="10dp">
+
+
+
+                    <TextView
+                        android:id="@+id/tittle"
+                        style="@style/TextAppearance.AppCompat.Headline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:layout_centerHorizontal="true"
+                        android:padding="8dp"
+                        android:text="Subject">
+
+                    </TextView>
+
+
+
+
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+
+            <androidx.cardview.widget.CardView
+
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/light_coral"
+                android:backgroundTint="@color/floral_white"
+                app:cardCornerRadius="30dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:onClick="che"
+                    android:id="@+id/che"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/sportsImage"
+                        android:layout_width="wrap_content"
+                        android:src="@drawable/che"
+                        android:layout_height="wrap_content"
+                        android:adjustViewBounds="true">
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:id="@+id/News"
+                        style="@style/TextAppearance.AppCompat.Headline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/sportsImage"
+                        android:padding="8dp"
+                        android:text="Chemistry">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/subtitle"
+                        style="@style/TextAppearance.AppCompat.Subhead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/News"
+                        android:padding="8dp"
+                        android:text="Bhutan Higher Secondary Examination Certificate">
+
+                    </TextView>
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/light_coral"
+                android:backgroundTint="@color/floral_white"
+                app:cardCornerRadius="30dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/math"
+                    android:onClick="math"
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/sportsImage1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/mathematics"
+                        android:adjustViewBounds="true">
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:id="@+id/News1"
+                        style="@style/TextAppearance.AppCompat.Headline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/sportsImage1"
+                        android:padding="8dp"
+                        android:text="Mathematics">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/subtitle1"
+                        style="@style/TextAppearance.AppCompat.Subhead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/News1"
+                        android:padding="8dp"
+                        android:text="Bhutan Higher Secondary Examination Certificate">
+
+                    </TextView>
+                </RelativeLayout>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+
+                android:background="@color/light_coral"
+                android:backgroundTint="@color/floral_white"
+                app:cardCornerRadius="30dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/bio"
+                    android:onClick="bio"
+
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/sportsImage2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/biology"
+                        android:adjustViewBounds="true">
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:id="@+id/News2"
+                        style="@style/TextAppearance.AppCompat.Headline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/sportsImage2"
+                        android:padding="8dp"
+                        android:text="Biology">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/subtitle2"
+                        style="@style/TextAppearance.AppCompat.Subhead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/News2"
+                        android:padding="8dp"
+                        android:text="Bhutan Higher Secondary Examination Certificate">
+
+                    </TextView>
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+
+            <androidx.cardview.widget.CardView
+
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="8dp"
+                android:background="@color/light_coral"
+                android:backgroundTint="@color/floral_white"
+                app:cardCornerRadius="30dp">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/phy"
+                    android:onClick="physics"
+
+                    android:layout_marginBottom="10dp">
+
+                    <ImageView
+                        android:id="@+id/sportsImage3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/phy"
+                        android:adjustViewBounds="true">
+
+                    </ImageView>
+
+
+                    <TextView
+                        android:id="@+id/News3"
+                        style="@style/TextAppearance.AppCompat.Headline"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/sportsImage3"
+                        android:padding="8dp"
+                        android:text="Physics">
+
+                    </TextView>
+
+                    <TextView
+                        android:id="@+id/subtitle3"
+                        style="@style/TextAppearance.AppCompat.Subhead"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/News3"
+                        android:padding="8dp"
+                        android:text="Bhutan Higher Secondary Examination Certificate">
+
+                    </TextView>
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
